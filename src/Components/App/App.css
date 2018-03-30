@@ -1,0 +1,25 @@
+.App {
+  padding: 10px;
+}
+
+.label-wrapper {
+  display: inline-block;
+}
+
+.avatar {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.rt-thead.-headerGroups {
+  display: none;
+}
+
+.rt-tr-group:hover {
+  cursor: pointer;
+}
