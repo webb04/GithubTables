@@ -10,13 +10,6 @@ it('Renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('Renders correctly', () => {
-  const tree = renderer
-    .create(<App />)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
 it('Filters out duplicate dropdown options', () => {
   const Component = shallow(<App />);
   const dupes = ['CLA Signed', 'Type: Bug', 'CLA Signed', 'Type: Bug'];

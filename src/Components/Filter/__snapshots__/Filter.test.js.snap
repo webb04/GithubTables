@@ -1,5 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Renders correctly 1`] = `
+<div
+  className="Filter-Wrapper"
+>
+  <div
+    className="Filter"
+    onClick={[Function]}
+  >
+    Filter Authors
+  </div>
+</div>
+`;
+
 exports[`renders correctly 1`] = `
 <div
   className="Filter-Wrapper"
