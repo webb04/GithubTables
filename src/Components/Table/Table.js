@@ -45,8 +45,9 @@ class Table extends React.Component {
                             {
                                 id: "Date",
                                 Header: "Date",
-                                accessor: d => moment(d.created_at).calendar(),
-                                width: 210
+                                accessor: d => moment(d.created_at).format('DD/MM/YYYY'),
+                                width: 210,
+                                sortMethod: (a, b) => new Date(b) - new Date(a)
                             },
                             {
                                 id: "Reporter",

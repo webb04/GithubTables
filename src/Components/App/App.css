@@ -24,6 +24,11 @@
   cursor: pointer;
 }
 
+.rt-th.rt-resizable-header.-sort-asc.-cursor-pointer,
+.rt-th.rt-resizable-header.-cursor-pointer {
+  outline: none !important;
+}
+
 .App-Filter {
   display: inline-block;
   margin-right: 80px;
