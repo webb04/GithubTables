@@ -23,3 +23,8 @@
 .rt-tr-group:hover {
   cursor: pointer;
 }
+
+.App-Filter {
+  display: inline-block;
+  margin-right: 80px;
+}

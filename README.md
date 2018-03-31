@@ -1,5 +1,10 @@
 - Redux is a good solution for large/complex state, but due to alot of the UI state encapsulated in react-table, I thought it was a bit overkill for the project
 
+To Run:
+- npm install
+- npm start
+- http://localhost:3000
+
 ## Available Scripts
 
 In the project directory, you can run:
