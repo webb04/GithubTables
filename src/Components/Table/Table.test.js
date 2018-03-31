@@ -4,13 +4,13 @@ import renderer from 'react-test-renderer';
 import Table from './Table';
 import { shallow, mount } from 'enzyme';
 
-it('renders without crashing', () => {
+it('Renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Table />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
   
-it('renders correctly', () => {
+it('Renders correctly', () => {
     const tree = renderer
         .create(<Table />)
         .toJSON();

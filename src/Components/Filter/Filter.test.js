@@ -4,13 +4,13 @@ import renderer from 'react-test-renderer';
 import Filter from './Filter';
 import { shallow, mount } from 'enzyme';
 
-it('renders without crashing', () => {
+it('Renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Filter options={['one', 'two']} />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders correctly', () => {
+it('Renders correctly', () => {
     const tree = renderer
         .create(<Filter options={['one', 'two']} />)
         .toJSON();

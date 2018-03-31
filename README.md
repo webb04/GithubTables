@@ -1,5 +1,9 @@
 - Redux is a good solution for large/complex state, but due to alot of the UI state encapsulated in react-table, I thought it was a bit overkill for the project
 
+TODO:
+- Be able to select multiple filters
+- Enable keys for navigation of filters
+
 To Run:
 - npm install
 - npm start
