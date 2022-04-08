@@ -6,7 +6,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "namor": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
